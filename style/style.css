@@ -1,0 +1,40 @@
+.controls h1{
+    text-align: center;
+}
+
+.calendar-container,.controls{
+    max-width:300px;
+    margin:20px auto;
+}
+
+.arrow {
+    cursor: pointer;
+    font-size: 24px;
+    padding: 0 10px;
+}
+
+table{
+    width:100%;
+    border-collapse: collapse;
+}
+
+#month{
+    width:120px;
+    padding:2px;
+}
+
+th, td {
+    width: 10%;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #d4d1d1;
+}
+
+button{
+    margin-left:110px;
+    margin-top:20px;
+}
